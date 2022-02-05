@@ -1,4 +1,0 @@
-user001 $argon2id$v=19$m=65536,t=3,p=4$eugy7LHgIBCK6JyJqkYhTg$2TFpxt9z3kI77lw2XgVlmc8PvFOT1DFPD0qw+yJN3us
-user002 $argon2id$v=19$m=65536,t=3,p=4$8k0FOGBAJjdBgy4PfQtlJg$XPVwHZV4G+YKx+p/2FyOtgYPLuC8pGJ3kG6/8CZg69k
-user003 $argon2id$v=19$m=65536,t=3,p=4$S9KLX/GJLPGMYhmgto3lUg$Q2K81uf9N/dfOvPWfuA27Ewyjhw90l3u2YWzG/kwSW8
-user004 $argon2id$v=19$m=65536,t=3,p=4$LAvDy1L8zxlLm/L3o+OOJw$bF4tps+rpKaz0Um1ghhZmvUxo1TnKvSM4oORPvPdDN0
