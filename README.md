@@ -38,9 +38,7 @@ consider side-channel attacks to be a viable threat.
 First install using pip
 
 ```python
-pip
-install
-argon2 - cffi
+pip install argon2 - cffi
 ```
 
 Example from the official documentation:
