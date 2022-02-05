@@ -2,7 +2,7 @@ import argon2
 from argon2 import PasswordHasher
 
 
-def load_user_passwords(file_to_read, file_to_write):
+def load_user_passwords_and_write_hashed_passwords(file_to_read, file_to_write):
     argon = PasswordHasher()
 
     read_file = open(file_to_read, 'r')
@@ -32,7 +32,7 @@ def argon_verify_by(input_hash, pwd_to_hash, argon):
 if __name__ == '__main__':
     argon_ph = PasswordHasher()
 
-    load_user_passwords('user-plain-text-password.txt', 'user-hashed-password.txt')
+    load_user_passwords_and_write_hashed_passwords('user-plain-text-password.txt', 'user-hashed-password.txt')
     leaked_passwords = open('leaked-passwords.txt', 'r')
     hashed_passwords = open('user-hashed-password.txt', 'r')
 
