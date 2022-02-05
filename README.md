@@ -28,7 +28,9 @@ implementation of Argon2 is released under a Creative Commons CC0 license (i.e. 
 
 Argon2d maximizes resistance to GPU cracking attacks. It accesses the memory array in a password dependent order, which
 reduces the possibility of time–memory trade-off (TMTO) attacks, but introduces possible side-channel attacks. Argon2i
-is optimized to resist side-channel attacks. It accesses the memory array in a password independent order. Argon2id is a
+is optimized to resist side-channel attacks.
+
+It accesses the memory array in a password independent order. Argon2id is a
 hybrid version. It follows the Argon2i approach for the first half pass over memory and the Argon2d approach for
 subsequent passes. The RFC recommends using Argon2id if you do not know the difference between the types, or you
 consider side-channel attacks to be a viable threat.
