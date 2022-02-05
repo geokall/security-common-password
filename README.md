@@ -1,23 +1,23 @@
 # Leaked Passwords
 
 ## Data breach
-A data breach is a security violation, in which sensitive, protected or confidential data is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so.[1] Other terms are unintentional information disclosure, data leak, information leakage, and data spill.
+A data breach is a security violation, in which sensitive, protected or confidential data is copied, transmitted, viewed, stolen or used by an individual unauthorized to do so. Other terms are unintentional information disclosure, data leak, information leakage, and data spill.
 Incidents range from concerted attacks by individuals who hack for personal gain or malice (black hats), organized crime, political activists or national governments, to poorly configured system security or careless disposal of used computer equipment or data storage media.
-Leaked information can range from matters compromising national security, to information on actions which a government or official considers embarrassing and wants to conceal. A deliberate data breach by a person privy to the information, typically for political purposes, is more often described as a "leak".[2]
+Leaked information can range from matters compromising national security, to information on actions which a government or official considers embarrassing and wants to conceal. A deliberate data breach by a person privy to the information, typically for political purposes, is more often described as a "leak".
 
 Data breaches may involve financial information such as credit card and debit card details, bank details, personal health information (PHI), Personally identifiable information (PII), trade secrets of corporations or intellectual property.
-Data breaches may involve overexposed and vulnerable unstructured data – files, documents, and sensitive information.[3]
+Data breaches may involve overexposed and vulnerable unstructured data – files, documents, and sensitive information.
 
 Data breaches can be quite costly to organizations with direct costs (remediation, investigation, etc) and indirect costs (reputational damages, providing cyber security to victims of compromised data, etc.).
 
 ## Argon2
-Argon2 is a key derivation function that was selected as the winner of the Password Hashing Competition in July 2015.[1][2] It was designed by Alex Biryukov, Daniel Dinu, and Dmitry Khovratovich from the University of Luxembourg.
-[3] The reference implementation of Argon2 is released under a Creative Commons CC0 license (i.e. public domain) or the Apache License 2.0, and provides three related versions:
+Argon2 is a key derivation function that was selected as the winner of the Password Hashing Competition in July 2015. It was designed by Alex Biryukov, Daniel Dinu, and Dmitry Khovratovich from the University of Luxembourg.
+The reference implementation of Argon2 is released under a Creative Commons CC0 license (i.e. public domain) or the Apache License 2.0, and provides three related versions:
 
 Argon2d maximizes resistance to GPU cracking attacks. It accesses the memory array in a password dependent order, which reduces the possibility of time–memory trade-off (TMTO) attacks, but introduces possible side-channel attacks.
 Argon2i is optimized to resist side-channel attacks. It accesses the memory array in a password independent order.
 Argon2id is a hybrid version. It follows the Argon2i approach for the first half pass over memory and the Argon2d approach for subsequent passes.
-The RFC [4] recommends using Argon2id if you do not know the difference between the types or you consider side-channel attacks to be a viable threat.
+The RFC recommends using Argon2id if you do not know the difference between the types, or you consider side-channel attacks to be a viable threat.
 
 ## How to use Argon2
 First install using pip
